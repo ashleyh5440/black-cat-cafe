@@ -1,0 +1,49 @@
+/* red 140 17 39 
+rust red 59 24 18
+espresso 38 19 15
+green 142624*/
+
+
+.row {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.me-auto {
+    display: flex;
+    flex-direction: row;
+}
+
+.me-auto .nav-link {
+    width: 50%
+}
+
+#nav-bar {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(59 24 18);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#nav-left {
+    margin: 0% 2% 0% 0%;
+}
+
+#nav-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid white;
+}
+
+#home-img-box {
+    width: 70%;
+}
+
+#home-img-box img {
+    width: 100%;
+    padding: 2%;
+}

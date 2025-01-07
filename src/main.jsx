@@ -6,7 +6,6 @@ import { createBrowserRouter, RouterProvider, useLocation, useOutlet } from 'rea
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 import 'bootstrap/dist/css/bootstrap.css';
 
-// import App from './App.jsx'
 import './index.css'
 
 //pages: home, about, menu, book clubs, reserve space
@@ -16,6 +15,8 @@ import About from './pages/About';
 import Menu from './pages/Menu';
 import BookClubs from './pages/Book-Clubs';
 import Reserve from './pages/Reserve';
+
+import Navigation from './components/Navigation'
 
 const routes = [
   {
@@ -33,7 +34,7 @@ const routes = [
   {
     path: '/menu',
     name: 'Menu',
-    element: <About />,
+    element: <Menu />,
     nodeRef: createRef()
   },
   {
